@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bridgeling-books.github.io/sitemap.xml
