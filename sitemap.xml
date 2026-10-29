@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://bridgeling-books.github.io/</loc></url>
-<url><loc>https://bridgeling-books.github.io/fr/</loc></url>
 <url><loc>https://bridgeling-books.github.io/arabic-alphabet-tracing/</loc></url>
 <url><loc>https://bridgeling-books.github.io/farsi-alphabet-tracing/</loc></url>
 <url><loc>https://bridgeling-books.github.io/spanish-alphabet-tracing/</loc></url>
+<url><loc>https://bridgeling-books.github.io/</loc></url>
+<url><loc>https://bridgeling-books.github.io/books/</loc></url>
+<url><loc>https://bridgeling-books.github.io/resources/</loc></url>
+<url><loc>https://bridgeling-books.github.io/about/</loc></url>
+<url><loc>https://bridgeling-books.github.io/contact/</loc></url>
+<url><loc>https://bridgeling-books.github.io/privacy/</loc></url>
 <url><loc>https://bridgeling-books.github.io/fr/apprendre-a-ecrire-arabe/</loc></url>
+<url><loc>https://bridgeling-books.github.io/fr/</loc></url>
+<url><loc>https://bridgeling-books.github.io/fr/books/</loc></url>
+<url><loc>https://bridgeling-books.github.io/fr/resources/</loc></url>
+<url><loc>https://bridgeling-books.github.io/fr/about/</loc></url>
+<url><loc>https://bridgeling-books.github.io/fr/contact/</loc></url>
+<url><loc>https://bridgeling-books.github.io/fr/privacy/</loc></url>
 </urlset>
