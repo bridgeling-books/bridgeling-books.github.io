@@ -11,7 +11,7 @@ h1{font-size:clamp(2rem,5vw,3rem);margin:.2em 0 .4em}h2{font-size:clamp(1.4rem,3
 a{color:var(--terra)}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 header.top{background:var(--paper);border-bottom:1px solid #eadfce;position:sticky;top:0;z-index:5}
-.bar{display:flex;align-items:center;gap:18px;min-height:68px;flex-wrap:wrap;padding:6px 0}
+.bar{display:flex;align-items:center;gap:18px;min-height:68px;flex-wrap:wrap;padding:10px 20px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:1.25rem;color:var(--ink);margin-right:auto}
 .brand small{display:block;font-family:'Nunito Sans',sans-serif;font-size:.68rem;font-weight:600;color:var(--muted);letter-spacing:.04em}
 .mark{width:40px;height:40px}
@@ -24,19 +24,19 @@ nav.main a.lang{border:1.5px solid var(--ink);border-radius:20px;padding:2px 10p
 .hero{padding:56px 0 40px}.hero .eyebrow{font-weight:700;color:var(--terra);letter-spacing:.06em;text-transform:uppercase;font-size:.8rem}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
 .covers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;transform:rotate(-2deg)}
-.covers img{box-shadow:0 10px 24px #26354a33}
+.covers img{box-shadow:0 10px 24px #26354a33;aspect-ratio:8.5/11;object-fit:cover;width:100%}
 section{padding:44px 0}section.alt{background:var(--paper)}section.sage{background:#eef3ee}
 .lead{font-size:1.15rem;color:var(--muted);max-width:720px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:24px}
 .card{background:var(--paper);border-radius:18px;padding:22px;box-shadow:0 4px 18px #26354a14}
 .bookcard{background:var(--paper);border-radius:18px;overflow:hidden;box-shadow:0 4px 18px #26354a14;display:flex;flex-direction:column;text-decoration:none;color:var(--ink)}
-.bookcard img{border:0;border-radius:0;width:100%;aspect-ratio:3/4;object-fit:cover;background:#f3ece0}
+.bookcard img{border:0;border-radius:0;width:100%;aspect-ratio:8.5/11;object-fit:cover;background:#f3ece0}
 .bookcard div{padding:16px 18px 20px}.bookcard .meta{color:var(--muted);font-size:.88rem}
 .bookcard:hover{transform:translateY(-3px);transition:.2s}
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
 .steps .card h3{color:var(--terra)}
 blockquote{font-family:Fraunces,Georgia,serif;font-size:clamp(1.3rem,3vw,1.8rem);margin:0 0 12px;color:var(--ink)}
-.book{display:grid;grid-template-columns:minmax(160px,260px) 1fr;gap:28px;align-items:start}
+.book{display:grid;grid-template-columns:minmax(160px,260px) 1fr;gap:28px;align-items:start}.book>a img,.sample img{box-shadow:0 10px 24px #26354a2a}
 .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
 .facts{color:var(--muted);font-weight:700}
 img{max-width:100%;border-radius:10px;border:1px solid #eadfce}
@@ -45,12 +45,12 @@ footer{background:var(--ink);color:#e9e4da;padding:40px 0 30px;margin-top:40px}
 footer a{color:#fff}footer .brand{color:#fff}footer .brand small{color:#c9c3b6}
 .fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}footer ul{list-style:none;padding:0;margin:0}
 footer .copy{border-top:1px solid #ffffff22;margin-top:24px;padding-top:14px;font-size:.85rem;color:#c9c3b6}
-@media(max-width:760px){.hero-grid,.book,.fgrid{grid-template-columns:1fr}.covers{max-width:420px}.bar{gap:8px}nav.main{gap:12px;width:100%}}
+@media(max-width:760px){.hero-grid,.book,.fgrid{grid-template-columns:1fr}.bar{gap:6px 16px}nav.main{gap:16px;width:100%}h1{font-size:clamp(30px,8vw,38px);line-height:1.12}body{font-size:16.5px;line-height:1.55}section{padding:48px 0}.hero{padding:28px 0 36px}.hero .lead{display:none}.hero-grid{gap:20px}.covers{transform:none;gap:10px}.btn{margin:6px 8px 6px 0}.book>a{max-width:240px}}
 </style></head><body>
 <header class="top"><div class="wrap bar"><a class="brand" href="/fr/"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 14c6-3 12-3 18 1 6-4 12-4 18-1v24c-6-3-12-3-18 1-6-4-12-4-18-1z" fill="#FFF9F0" stroke="#26354A" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 15v24" stroke="#26354A" stroke-width="2.4"/><path d="M10 31c4-7 24-7 28 0" fill="none" stroke="#C9674C" stroke-width="2.6" stroke-linecap="round"/><circle cx="24" cy="9" r="2.6" fill="#EBCB83"/></svg><span>Bridgeling Books<small>Petites lettres, grands liens.</small></span></a><nav class="main"><a href="/fr/books/">Nos livres</a><a href="/fr/resources/">Ressources gratuites</a><a href="/fr/about/">À propos</a><a class="lang" href="/" lang="en">EN</a></nav></div></header>
-<main><section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Petites lettres, grands liens.</p><h1>Des cahiers d'écriture pour les enfants qui grandissent avec deux langues</h1>
+<main><section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Petites lettres, grands liens.</p><h1>Aider les petites mains à écrire la langue de leur famille</h1>
 <p class="lead">Bridgeling Books crée des cahiers d'apprentissage ludiques et accessibles pour aider les enfants à découvrir les langues et les écritures liées à leur histoire familiale — en français et en anglais.</p><a class="btn" href="/fr/books/">Découvrir nos livres</a><a class="btn ghost" href="/fr/resources/">Pages gratuites</a></div>
-<div class="covers"><img src="/files/cover-apprendre-a-ecrire-arabe.jpg" alt="" loading="lazy"><img src="/files/cover-arabic-alphabet-tracing.jpg" alt="" loading="lazy"><img src="/files/cover-farsi-alphabet-tracing.jpg" alt="" loading="lazy"></div></div></section>
+<div class="covers"><img src="/files/cover-apprendre-a-ecrire-arabe.jpg" alt="Mes premières lettres arabes" fetchpriority="high"><img src="/files/cover-arabic-alphabet-tracing.jpg" alt="My First Arabic Letters" fetchpriority="high"><img src="/files/cover-farsi-alphabet-tracing.jpg" alt="My First Persian Letters" fetchpriority="high"></div></div></section>
 <section class="alt"><div class="wrap"><h2>Comment nos cahiers apprennent à écrire</h2><div class="steps"><div class="card"><h3>1 · Voir le modèle</h3><p>Une grande lettre claire, avec son nom, ses formes et un mot illustré.</p></div><div class="card"><h3>2 · Suivre le trait</h3><p>Les pointillés sont au centre de chaque trait : l'enfant écrit la lettre, il ne repasse pas son contour.</p></div><div class="card"><h3>3 · Écrire seul</h3><p>Cases vides, révisions et coloriages transforment l'exercice en confiance.</p></div></div></div></section>
 <section><div class="wrap"><h2>Nos livres</h2><p class="lead">Collection Langues d'origine — cahiers d'alphabet pour les 3 à 7 ans.</p><div class="grid"><a class="bookcard" href="/fr/apprendre-a-ecrire-arabe/"><img src="/files/cover-apprendre-a-ecrire-arabe.jpg" alt="Mes premières lettres arabes" loading="lazy"><div><h3>Mes premières lettres arabes</h3><p class="meta">Écriture arabe · de droite à gauche<br>28 lettres · 132 pages · Broché, 21,6 x 27,9 cm · 3 à 7 ans</p></div></a><a class="bookcard" href="/arabic-alphabet-tracing/"><img src="/files/cover-arabic-alphabet-tracing.jpg" alt="My First Arabic Letters" loading="lazy"><div><h3>My First Arabic Letters</h3><p class="meta">Arabic script · right to left<br>28 letters · 76 pages · Paperback, 8.5 x 11 in · Ages 3–7</p></div></a><a class="bookcard" href="/farsi-alphabet-tracing/"><img src="/files/cover-farsi-alphabet-tracing.jpg" alt="My First Persian Letters" loading="lazy"><div><h3>My First Persian Letters</h3><p class="meta">Persian script · right to left<br>32 letters · 150 pages · Hardcover, 8.25 x 11 in · Ages 3–7</p></div></a><a class="bookcard" href="/spanish-alphabet-tracing/"><img src="/files/cover-spanish-alphabet-tracing.jpg" alt="My First Spanish Letters" loading="lazy"><div><h3>My First Spanish Letters</h3><p class="meta">Latin alphabet · with Ñ<br>27 letters · 128 pages · Hardcover, 8.25 x 11 in · Ages 3–7</p></div></a></div></div></section>
 <section class="sage"><div class="wrap prose"><blockquote>Chaque lettre est une découverte. Chaque langue crée un lien.</blockquote><p>Nous croyons que les enfants méritent de découvrir avec plaisir les langues qui relient les générations. Avec des activités progressives, des exercices d'écriture et des illustrations colorées, nous transformons les petits moments d'apprentissage en moments de famille.</p>
